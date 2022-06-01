@@ -1,0 +1,3 @@
+interface GetContactsRequest {
+    "connectid": string,
+}

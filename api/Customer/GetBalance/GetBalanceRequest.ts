@@ -1,0 +1,3 @@
+interface GetBalanceRequest {
+    "connectid" : string,
+}

@@ -1,0 +1,3 @@
+interface LoginReturn{
+    "connectionId" : string,
+}

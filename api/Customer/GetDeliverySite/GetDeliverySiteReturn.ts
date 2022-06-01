@@ -1,0 +1,20 @@
+interface GetDeliverySiteReturn {
+    // CustomerDelivery type containing customer information.
+    "SiteCode": string,
+    "Name": string,
+    "Address1": string,
+    "Address2": string,
+    "City": string,
+    "State": string,
+    "PostalCode": string,
+    "Country": string,
+    "Contact": string,
+    "Phone": string,
+    "Fax": string,
+    "Email": string,
+    "FreightType": string,
+    "FreightAcc": string,
+    "Carrier": string,
+    "Shipping": string,
+    "Primary": boolean,
+}

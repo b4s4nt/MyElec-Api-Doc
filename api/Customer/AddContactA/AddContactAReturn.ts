@@ -1,0 +1,3 @@
+interface AddContactAReturn {
+    "contactid": string,
+}

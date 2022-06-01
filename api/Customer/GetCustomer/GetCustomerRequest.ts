@@ -1,0 +1,3 @@
+interface GetCustomerRequest {
+    "connectiid": string,
+}
