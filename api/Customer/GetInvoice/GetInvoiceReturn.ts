@@ -74,7 +74,7 @@ interface GetInvoiceReturn {
         "DespatchID": string,
         "InvoiceID": string,
         "SalesLocation       ": string,
-        "DespatchNumber      ":  number, //integer,
+        "DespatchNumber      ": number, //integer,
         "Warehouse           ": string,
         "DeliveryType        ": string,
         "SiteCode            ": string,
@@ -85,10 +85,10 @@ interface GetInvoiceReturn {
         "State               ": string,
         "PostalCode          ": string,
         "Country             ": string,
-        "DespatchDate        ":  Date, //datetime,
+        "DespatchDate        ": Date, //datetime,
         "Cartons             ": string,
-        "Cubic               ":  number, //decimal,
-        "Weight              ":  number, //decimal,
+        "Cubic               ": number, //decimal,
+        "Weight              ": number, //decimal,
         "FreightType         ": string,
         "FreightAccount      ": string,
         "Carrier             ": string,
@@ -104,10 +104,10 @@ interface GetInvoiceReturn {
         "InternalUse3        ": string,
     },
     "PageInfo": {
-        "SelectedPage":  number, //int,
-        "ItemsPerPage":  number, //int,
-        "PageIndexCount":  number, //int,
-        "QueryLimit":  number, //int,
+        "SelectedPage": number, //int
+        "ItemsPerPage": number, //int
+        "PageIndexCount": number, //int
+        "QueryLimit": number, //int
 
         //The QueryLimit column records the number of rows searched by the query.
         // This value will be either the maximum query count plus one (ie. ItemsPerPage * PageIndexCount + 1) or the total number of rows that match the query criteria
